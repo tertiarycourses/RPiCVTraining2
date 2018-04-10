@@ -1,5 +1,6 @@
 from picamera import PiCamera
 import time
+
 camera = PiCamera()
 camera.awb_mode = 'horizon'
 camera.start_preview()
